@@ -1,0 +1,45 @@
+html{
+  background-color: black;
+
+}
+li{
+background-color: orange;
+  font-size: 30px;
+  color: black;
+  padding: 50px
+}
+@font-face {
+  font-family: 'PUMKIN';
+  src:url('CFHalloween-Regular.ttf')format('truetype');
+}
+@font-face {
+  font-family:'happy';
+  src: url('Spoky Spiders.ttf' )format('truetype'),url('Spooky.otf')format('opentype')
+}
+
+h1{
+  color: red;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'PUMKIN',Times,serif;
+
+
+p{
+  color: red;
+  font-size: 30px;
+  font-family:'happy',Times,serif;
+  font-size: 40px;
+}
+img{
+  font-size: 80px;
+}
+
+#container-imagem {
+    position: relative;
+    height:25vw;
+    width: 99vw;
+    /* adicionando imagem de fundo */
+    background: url('feliz-dia-das-bruxas-com-design-de-papel-de-parede_52683-44541.webp');
+  background-size: cover;
+  font-size: 50px
+}
